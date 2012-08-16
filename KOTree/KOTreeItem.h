@@ -5,6 +5,11 @@
 //  Created by Adam Horacek on 07.08.12.
 //  Copyright (c) 2012 Adam Horacek, Kuba Brecka
 //
+//  Website: http://www.becomekodiak.com/
+//  github: http://github.com/adamhoracek/KOTabs
+//	Twitter: http://twitter.com/becomekodiak
+//  Mail: adam@becomekodiak.com, kuba@becomekodiak.com
+//
 //  Permission is hereby granted, free of charge, to any person
 //  obtaining a copy of this software and associated documentation
 //  files (the "Software"), to deal in the Software without
@@ -32,12 +37,9 @@
 @interface KOTreeItem : NSObject
 
 @property (nonatomic, strong) NSString *base, *path;
-
 @property (nonatomic) NSInteger numberOfSubitems;
-
 @property (nonatomic, strong) KOTreeItem *parentSelectingItem;
 @property (nonatomic, strong) NSMutableArray *ancestorSelectingItems;
-
 @property (nonatomic) NSInteger submersionLevel;
 
 - (BOOL)isEqualToSelectingItem:(KOTreeItem *)selectingItem;

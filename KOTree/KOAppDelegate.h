@@ -6,7 +6,8 @@
 //  Copyright (c) 2012 Adam Horacek, Kuba Brecka
 //
 //  Website: http://www.becomekodiak.com/
-//	Twitter: @becomekodiak
+//  github: http://github.com/adamhoracek/KOTabs
+//	Twitter: http://twitter.com/becomekodiak
 //  Mail: adam@becomekodiak.com, kuba@becomekodiak.com
 //
 //  Permission is hereby granted, free of charge, to any person
