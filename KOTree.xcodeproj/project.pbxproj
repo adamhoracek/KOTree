@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6604DA0515D160F10025AA86 /* KOTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6604DA0215D160F10025AA86 /* KOTreeViewController.m */; };
+		6604DA1115D162870025AA86 /* KOTreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6604DA1015D162870025AA86 /* KOTreeTableViewCell.m */; };
+		6604DA1415D163710025AA86 /* KOTreeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6604DA1315D163710025AA86 /* KOTreeItem.m */; };
+		6689446E15D15FBF00C6C800 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6689446D15D15FBF00C6C800 /* UIKit.framework */; };
+		6689447015D15FBF00C6C800 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6689446F15D15FBF00C6C800 /* Foundation.framework */; };
+		6689447215D15FBF00C6C800 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6689447115D15FBF00C6C800 /* CoreGraphics.framework */; };
+		6689447815D15FBF00C6C800 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6689447615D15FBF00C6C800 /* InfoPlist.strings */; };
+		6689447A15D15FBF00C6C800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6689447915D15FBF00C6C800 /* main.m */; };
+		6689447E15D15FBF00C6C800 /* KOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6689447D15D15FBF00C6C800 /* KOAppDelegate.m */; };
+		66BD9BD115D3F83A00B29086 /* copymove-cell-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BD9BCA15D3F83A00B29086 /* copymove-cell-bg.png */; };
+		66BD9BD215D3F83A00B29086 /* item-counter.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BD9BCB15D3F83A00B29086 /* item-counter.png */; };
+		66BD9BD315D3F83A00B29086 /* item-counter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BD9BCC15D3F83A00B29086 /* item-counter@2x.png */; };
+		66BD9BD415D3F83A00B29086 /* item-icon-folder-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BD9BCD15D3F83A00B29086 /* item-icon-folder-selected.png */; };
+		66BD9BD515D3F83A00B29086 /* item-icon-folder-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BD9BCE15D3F83A00B29086 /* item-icon-folder-selected@2x.png */; };
+		66BD9BD615D3F83A00B29086 /* item-icon-folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BD9BCF15D3F83A00B29086 /* item-icon-folder.png */; };
+		66BD9BD715D3F83A00B29086 /* item-icon-folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66BD9BD015D3F83A00B29086 /* item-icon-folder@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6604DA0115D160F10025AA86 /* KOTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTreeViewController.h; sourceTree = "<group>"; };
+		6604DA0215D160F10025AA86 /* KOTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTreeViewController.m; sourceTree = "<group>"; };
+		6604DA1015D162870025AA86 /* KOTreeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTreeTableViewCell.m; sourceTree = "<group>"; };
+		6604DA1215D163710025AA86 /* KOTreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTreeItem.h; sourceTree = "<group>"; };
+		6604DA1315D163710025AA86 /* KOTreeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTreeItem.m; sourceTree = "<group>"; };
+		6689446915D15FBF00C6C800 /* KOTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6689446D15D15FBF00C6C800 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6689446F15D15FBF00C6C800 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6689447115D15FBF00C6C800 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6689447515D15FBF00C6C800 /* KOTree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KOTree-Info.plist"; sourceTree = "<group>"; };
+		6689447715D15FBF00C6C800 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6689447915D15FBF00C6C800 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6689447B15D15FBF00C6C800 /* KOTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOTree-Prefix.pch"; sourceTree = "<group>"; };
+		6689447C15D15FBF00C6C800 /* KOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOAppDelegate.h; sourceTree = "<group>"; };
+		6689447D15D15FBF00C6C800 /* KOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOAppDelegate.m; sourceTree = "<group>"; };
+		66B86AE415DD164400DB7BAF /* KOTreeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTreeTableViewCell.h; sourceTree = "<group>"; };
+		66BD9BCA15D3F83A00B29086 /* copymove-cell-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copymove-cell-bg.png"; sourceTree = "<group>"; };
+		66BD9BCB15D3F83A00B29086 /* item-counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item-counter.png"; sourceTree = "<group>"; };
+		66BD9BCC15D3F83A00B29086 /* item-counter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item-counter@2x.png"; sourceTree = "<group>"; };
+		66BD9BCD15D3F83A00B29086 /* item-icon-folder-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item-icon-folder-selected.png"; sourceTree = "<group>"; };
+		66BD9BCE15D3F83A00B29086 /* item-icon-folder-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item-icon-folder-selected@2x.png"; sourceTree = "<group>"; };
+		66BD9BCF15D3F83A00B29086 /* item-icon-folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item-icon-folder.png"; sourceTree = "<group>"; };
+		66BD9BD015D3F83A00B29086 /* item-icon-folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item-icon-folder@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6689446615D15FBF00C6C800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6689446E15D15FBF00C6C800 /* UIKit.framework in Frameworks */,
+				6689447015D15FBF00C6C800 /* Foundation.framework in Frameworks */,
+				6689447215D15FBF00C6C800 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6689445E15D15FBF00C6C800 = {
+			isa = PBXGroup;
+			children = (
+				6689447315D15FBF00C6C800 /* KOTree */,
+				6689446C15D15FBF00C6C800 /* Frameworks */,
+				6689446A15D15FBF00C6C800 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6689446A15D15FBF00C6C800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6689446915D15FBF00C6C800 /* KOTree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6689446C15D15FBF00C6C800 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6689446D15D15FBF00C6C800 /* UIKit.framework */,
+				6689446F15D15FBF00C6C800 /* Foundation.framework */,
+				6689447115D15FBF00C6C800 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6689447315D15FBF00C6C800 /* KOTree */ = {
+			isa = PBXGroup;
+			children = (
+				66B86AE215DD155000DB7BAF /* Classes */,
+				6689447C15D15FBF00C6C800 /* KOAppDelegate.h */,
+				6689447D15D15FBF00C6C800 /* KOAppDelegate.m */,
+				6689447415D15FBF00C6C800 /* Supporting Files */,
+			);
+			path = KOTree;
+			sourceTree = "<group>";
+		};
+		6689447415D15FBF00C6C800 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BD9BD915D3F84100B29086 /* Assets */,
+				6689447515D15FBF00C6C800 /* KOTree-Info.plist */,
+				6689447615D15FBF00C6C800 /* InfoPlist.strings */,
+				6689447915D15FBF00C6C800 /* main.m */,
+				6689447B15D15FBF00C6C800 /* KOTree-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66B86AE215DD155000DB7BAF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6604DA0115D160F10025AA86 /* KOTreeViewController.h */,
+				6604DA0215D160F10025AA86 /* KOTreeViewController.m */,
+				66B86AE415DD164400DB7BAF /* KOTreeTableViewCell.h */,
+				6604DA1015D162870025AA86 /* KOTreeTableViewCell.m */,
+				6604DA1215D163710025AA86 /* KOTreeItem.h */,
+				6604DA1315D163710025AA86 /* KOTreeItem.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		66BD9BD915D3F84100B29086 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				66BD9BCA15D3F83A00B29086 /* copymove-cell-bg.png */,
+				66BD9BCB15D3F83A00B29086 /* item-counter.png */,
+				66BD9BCC15D3F83A00B29086 /* item-counter@2x.png */,
+				66BD9BCD15D3F83A00B29086 /* item-icon-folder-selected.png */,
+				66BD9BCE15D3F83A00B29086 /* item-icon-folder-selected@2x.png */,
+				66BD9BCF15D3F83A00B29086 /* item-icon-folder.png */,
+				66BD9BD015D3F83A00B29086 /* item-icon-folder@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6689446815D15FBF00C6C800 /* KOTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6689448715D15FBF00C6C800 /* Build configuration list for PBXNativeTarget "KOTree" */;
+			buildPhases = (
+				6689446515D15FBF00C6C800 /* Sources */,
+				6689446615D15FBF00C6C800 /* Frameworks */,
+				6689446715D15FBF00C6C800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOTree;
+			productName = KOSelection;
+			productReference = 6689446915D15FBF00C6C800 /* KOTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6689446015D15FBF00C6C800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KO;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Adam Horacek";
+			};
+			buildConfigurationList = 6689446315D15FBF00C6C800 /* Build configuration list for PBXProject "KOTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6689445E15D15FBF00C6C800;
+			productRefGroup = 6689446A15D15FBF00C6C800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6689446815D15FBF00C6C800 /* KOTree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6689446715D15FBF00C6C800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6689447815D15FBF00C6C800 /* InfoPlist.strings in Resources */,
+				66BD9BD115D3F83A00B29086 /* copymove-cell-bg.png in Resources */,
+				66BD9BD215D3F83A00B29086 /* item-counter.png in Resources */,
+				66BD9BD315D3F83A00B29086 /* item-counter@2x.png in Resources */,
+				66BD9BD415D3F83A00B29086 /* item-icon-folder-selected.png in Resources */,
+				66BD9BD515D3F83A00B29086 /* item-icon-folder-selected@2x.png in Resources */,
+				66BD9BD615D3F83A00B29086 /* item-icon-folder.png in Resources */,
+				66BD9BD715D3F83A00B29086 /* item-icon-folder@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6689446515D15FBF00C6C800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6689447A15D15FBF00C6C800 /* main.m in Sources */,
+				6689447E15D15FBF00C6C800 /* KOAppDelegate.m in Sources */,
+				6604DA0515D160F10025AA86 /* KOTreeViewController.m in Sources */,
+				6604DA1115D162870025AA86 /* KOTreeTableViewCell.m in Sources */,
+				6604DA1415D163710025AA86 /* KOTreeItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6689447615D15FBF00C6C800 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6689447715D15FBF00C6C800 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6689448515D15FBF00C6C800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6689448615D15FBF00C6C800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6689448815D15FBF00C6C800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KOTree/KOTree-Prefix.pch";
+				INFOPLIST_FILE = "KOTree/KOTree-Info.plist";
+				PRODUCT_NAME = KOTree;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6689448915D15FBF00C6C800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KOTree/KOTree-Prefix.pch";
+				INFOPLIST_FILE = "KOTree/KOTree-Info.plist";
+				PRODUCT_NAME = KOTree;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6689446315D15FBF00C6C800 /* Build configuration list for PBXProject "KOTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6689448515D15FBF00C6C800 /* Debug */,
+				6689448615D15FBF00C6C800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6689448715D15FBF00C6C800 /* Build configuration list for PBXNativeTarget "KOTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6689448815D15FBF00C6C800 /* Debug */,
+				6689448915D15FBF00C6C800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6689446015D15FBF00C6C800 /* Project object */;
+}
